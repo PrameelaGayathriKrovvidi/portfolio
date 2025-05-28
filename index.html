@@ -7,143 +7,97 @@
     <link href="style1.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header>
-        <b><i>Welcome to my Portfolio</i></b> <h1>Prameela Gayathri Krovvidi</h1>
+     <header class="hero">
+      <div class="overlay"></div>
+      <div class="hero-content-row">
+        <img src="Profile.jpg" alt="Profile" class="hero-image-large" />
+        <div class="hero-text">
+          <h1 class="hero-title">Prameela Gayathri Krovvidi</h1>
+          <p class="hero-subtitle">Aspiring Full Stack Developer</p>
+        </div>
+      </div>
     </header>
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#education">Education</a>
-        <a href="#internships">Internships</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <section id="text-image-section">
-        <div class="image-text-section">
-            <img src="Passportphoto.jpg" alt="Image">
-        <div>
-        <h1 class="header">Prameela Gayathri Krovvidi - Java Full-Stack Developer</h1>
-        <p class="header">Building scalable and efficient solutions with Java, Spring Boot, and modern web technologies.</p>
-        <br><br> 
+
+    <main class="content">
+      <section class="section">
+        <h2 class="section-heading">About Me</h2>
+        <p>
+          Passionate and detail-oriented aspiring full stack developer with hands-on experience in building responsive web applications. Proficient in both front-end and back-end technologies with a solid foundation in development, and Testing. Eager to contribute to dynamic teams and grow as a software professional.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2 class="section-heading">Skills</h2>
+        <ul class="tag-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Java</li>
+          <li>Spring Boot</li>
+          <li>Hibernate</li>
+          <li>REST APIs</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>Manual Testing</li>
+          <li>Selenium</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="section-heading">Projects</h2>
+        <div class="card">
+          <h3 class="card-title">To-Do List Web App</h3>
+          <p class="card-subtitle">HTML, CSS, React.js</p>
+          <p>A feature-rich task management app with responsive design and interactive UI.</p>
+          <a href="https://github.com/PrameelaGayathriKrovvidi/TodoList" target="_blank" class="card-link">View Code</a>
         </div>
+
+        <div class="card">
+          <h3 class="card-title">Calculator</h3>
+          <p class="card-subtitle">HTML, CSS, JavaScript</p>
+          <p>Created a basic web calculator that performs arithmetic operations with clean UI.</p>
+          <a href="https://github.com/PrameelaGayathriKrovvidi/Calculator" target="_blank" class="card-link">View Code</a>
         </div>
-    </section>
+      </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Prameela Gayathri Krovvidi, a passionate Java full-stack developer with expertise in building robust backend systems and engaging front-end experiences. With a focus on clean code and scalability, I aim to deliver top-notch solutions for complex problems.</p>
-    </section>
+      <section class="section">
+        <h2 class="section-heading">Education</h2>
+        <p><strong>B.Tech in Electronics and Communication Engineering</strong><br />DNR College of Engineering and Technology, Bhimavaram (2020–2024)<br />CGPA: 7.33 | Percentage: 66.09</p>
+      </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <strong>Course:</strong> B.Tech
-            </li>
-            <li>
-                <strong>Branch:</strong> Electronics and Communication Engineering
-            </li>
-            <li>
-                <strong>College:</strong> DNR College of Engineering and Technology.
-            </li>
-            <li>
-                <strong>CGPA:</strong> 7.36
-            </li>
+      <section class="section">
+        <h2 class="section-heading">Internships</h2>
+        <div class="card">
+          <h3 class="card-title">Java Full Stack Development Intern</h3>
+          <p class="card-subtitle">June 2024 – March 2024</p>
+          <ul>
+            <li>Built and deployed full-stack web apps using Java, Spring Boot, Hibernate, and REST APIs.</li>
+            <li>Developed interactive UIs with HTML, CSS, React.js, and Angular.</li>
+            <li>Handled data management using MySQL and PostgreSQL.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 class="card-title">Full Stack Web Development Internship</h3>
+          <p class="card-subtitle">Jan 2024 – Apr 2024</p>
+          <ul>
+            <li>Built responsive real-time web projects collaboratively.</li>
+            <li>Focused on front-end optimization and design implementation.</li>
+            <li>Enhanced application responsiveness and performance.</li>
+          </ul>
+        </div>
+      </section>
 
-            <br/>
-            <li>
-                <b>Capstone Project: </b>
-                <ul>      
-              <li><b>Project Name:</b> Arduino Based Student Attendance Monitoring System using GSM and WSN</li>
-              <li><b>Description:</b> This project focuses on developing an automated Student Attendance Monitoring System using Arduino,
-                    GSM (Global System for Mobile Communications), and WSN (Wireless Sensor Network) technology and RFID. The
-                      system ensures accurate and efficient tracking of student attendance, minimizing manual errors and saving time.</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
+      <section class="section contact">
+        <h2 class="section-heading">Contact</h2>
+        <p>Email: pgayathrik2002@gmail.com</p>
+        <p>Phone: +91-9505569939</p>
+        <p><a href="www.linkedin.com/in/prameelagayathrikrovvidi">LINKEDIN</a></p>
+      </section>
+    </main>
 
-    <section id="internships">
-        <h2>Internships</h2>
-        <section id="internship-section">
-        <ul>
-            <li>
-                <strong>Java Full Stack Dvelopment Internship || Kodnest Technologies Private Limited, Bangalore</strong>
-                <h4>Description:</h4> 
-                <ul>
-                    <li>Designed and developed full-stack web applications using Java for backend development and technologies like
-                        Spring Boot, Hibernate, and REST APIs.</li>
-                    <li>Built interactive user interfaces using HTML, CSS, and JavaScript frameworks such as React.js or Angular.</li>
-                    <li>Managed databases with MySQL, PostgreSQL, or MongoDB, ensuring efficient data storage and retrieval.</li>
-                </ul>
-            </li>
-            </ul>
-            
-        </section>
-        <section id="internship-section">
-        <ul>
-            <li>
-                <strong>Full Stack Development Internship || Blackbuck Engineers IIDT, Tirupati</strong>
-                <h4>Description:</h4> 
-                <ul>
-                    <li>During the internship, I gained hands-on experience in full-stack web development by working on real-world projects.</li>
-                    <li>Developed and enhanced web applications by collaborating with cross-functional teams, leveraging modern   
-                        technologies and frameworks to deliver optimized and scalable solutions.</li>   
-                    <li>Designed and implemented responsive and interactive user interfaces utilizing HTML5, CSS3, and React.js and RESTful
-                        APIs using Node.js and Express.js</li>
-                </ul>
-            </li>
-            </ul>
-            </section>
-            
-        <section id="internship-section">
-            <ul>
-            <li>
-                <strong>Front End Development Internship || Edunet Foundation</strong> 
-                <h4>Description:</h4> 
-                <ul>
-                    <li>Designed and developed responsive and visually appealing user interfaces using HTML, CSS, and JavaScript.</li>
-                    <li>Utilized front-end frameworks like React.js, Vue.js, or Angular to build dynamic and interactive web applications.</li>
-                    <li>Debugged and resolved front-end issues to improve user experience and performance.</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <strong>Project Management Tool:</strong> A web application for task and team management built with Spring Boot, React, and MySQL.
-            </li>
-            <li>
-                <strong>E-commerce Platform:</strong> A full-stack solution for online shopping using Java, Hibernate, and React.
-            </li>
-            <li>
-                <strong>Portfolio Website:</strong> This portfolio, showcasing my skills and projects using HTML and CSS.
-            </li>
-        </ul>
-        </section>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <p><strong>Programming Languages:</strong> Java, JavaScript, Python</p>
-        <p><strong>Backend Technologies:</strong> Spring Boot, Hibernate, REST APIs</p>
-        <p><strong>Frontend Technologies:</strong> ReactJs, HTML, CSS, JavaScript</p>
-        <p><strong>Databases:</strong> MySQL, MongoDB</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p><b>Email:</b> pgayathrik2002@gmail.com</p>
-        <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/prameelagayathrikrovvidi/" target="_blank">linkedin.com/in/PrameelaGayathri</a></p>
-        <p><b>GitHub:</b> <a href="https://github.com/PrameelaGayathriKrovvidi" target="_blank">github.com/PrameelaGayathri</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Prameela Gayathri Krovvidi. All rights reserved.</p>
+    <footer class="footer">
+      <p>&copy; 2025 Prameela Gayathri Krovvidi. All rights reserved.</p>
     </footer>
 </body>
 </html>
